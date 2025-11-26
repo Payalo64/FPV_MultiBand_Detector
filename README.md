@@ -74,7 +74,6 @@
 
 ## Налаштування (config.h)
 
-```cpp
 #define RSSI_THRESHOLD     -68   // поріг тривоги (dBm)
 #define SCAN_DWELL_TIME    35    // мс на канал (чим менше — швидше)
 #define ALARM_DURATION     1500  // тривалість звуку (мс)
