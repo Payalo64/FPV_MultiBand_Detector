@@ -78,22 +78,28 @@
 #define RSSI_THRESHOLD     -68   // поріг тривоги (dBm)
 #define SCAN_DWELL_TIME    35    // мс на канал (чим менше — швидше)
 #define ALARM_DURATION     1500  // тривалість звуку (мс)
-Приклад екрану
+
+## Приклад екрану
+
 DETECTOR
 5.8GHz Ch:23 >
 RSSI: -52 dBm
 Best: -48 @ Ch19
 [███████████████        ]
+
 MONITOR
 1.2GHz Ch:05
 RSSI: -91 dBm
 [██                      ]
+
 SCAN
 3.3GHz Ch:47 >
 RSSI: -34 dBm
 Best: -34 @ Ch47
 [████████████████████████]
-Подяка
+
+## Подяка
+
 Оригінальний проєкт: Payalo64
 Натхнення та драйвери: EZ-FPV, Shea Ivey (RX5808 SPI-mod), спільноти FPV Ukraine, r/Multicopter, r/fpv
 Тестування та фідбек: вся українська FPV-спільнота 2024–2025
