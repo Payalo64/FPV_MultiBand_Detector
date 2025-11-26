@@ -79,14 +79,14 @@
 #define SCAN_DWELL_TIME    35    // мс на канал (чим менше — швидше)
 #define ALARM_DURATION     1500  // тривалість звуку (мс)
 
-Приклад екрану
+##Приклад екрану
 DETECTOR
 5.8GHz Ch:23 >
 RSSI: -52 dBm
 Best: -48 @ Ch19
 [███████████████        ]
 
-Подяка
+##Подяка
 Оригінальний проєкт: Payalo64
 Натхнення: EZ-FPV, спільноти FPV Ukraine та r/Multicopter
 Ліцензія
