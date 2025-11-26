@@ -80,9 +80,9 @@
 #define ALARM_DURATION     1500  // тривалість звуку (мс)
 
 
-'''## Приклад екрану
+## Приклад екрану
 
-DETECTOR
+```DETECTOR
 5.8GHz Ch:23 >
 RSSI: -52 dBm
 Best: -48 @ Ch19
