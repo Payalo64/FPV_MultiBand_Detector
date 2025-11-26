@@ -80,18 +80,18 @@
 
 ## Приклад екрану
 
-DETECTOR
+```DETECTOR
 5.8GHz Ch:23 >
 RSSI: -52 dBm
 Best: -48 @ Ch19
 [███████████████        ]
 
-MONITOR
+```MONITOR
 1.2GHz Ch:05
 RSSI: -91 dBm
 [██                      ]
 
-SCAN
+```SCAN
 3.3GHz Ch:47 >
 RSSI: -34 dBm
 Best: -34 @ Ch47
