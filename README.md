@@ -1,6 +1,6 @@
 # FPV MultiBand Detector v3.0 FINAL
 **Найпотужніший мультидіапазонний детектор FPV-дронів 2025 року**  
-1.2 GHz │ 3.3 GHz │ 5.8 GHz  
+1.2 GHz | 3.3 GHz | 5.8 GHz  
 
 ![Version](https://img.shields.io/badge/Version-3.0_FINAL-brightgreen?style=for-the-badge)
 ![ESP32-S3](https://img.shields.io/badge/ESP32--S3-Ready-blue?style=for-the-badge)
@@ -8,7 +8,7 @@
 ![Open Source](https://img.shields.io/badge/Open_Source-Yes-ff69b4?style=for-the-badge)
 
 Повністю переписана, оптимізована та стабільна прошивка на базі ESP32-S3  
-Готова до заливки "з коробки" — просто скопіюй 6 файлів і проший!
+Готова до заливки «з коробки» — просто скопіюй 6 файлів і проший!
 
 ## Можливості
 - 3 діапазони одночасно:
@@ -78,22 +78,26 @@
 #define RSSI_THRESHOLD     -68   // поріг тривоги (dBm)
 #define SCAN_DWELL_TIME    35    // мс на канал (чим менше — швидше)
 #define ALARM_DURATION     1500  // тривалість звуку (мс)
-
-
-```## Приклад екрану
-
+Приклад екрану
 DETECTOR
 5.8GHz Ch:23 >
 RSSI: -52 dBm
 Best: -48 @ Ch19
-[███████████████        ]```
-
-
-##Подяка
-
+[███████████████        ]
+MONITOR
+1.2GHz Ch:05
+RSSI: -91 dBm
+[██                      ]
+SCAN
+3.3GHz Ch:47 >
+RSSI: -34 dBm
+Best: -34 @ Ch47
+[████████████████████████]
+Подяка
 Оригінальний проєкт: Payalo64
-Натхнення: EZ-FPV, спільноти FPV Ukraine та r/Multicopter
+Натхнення та драйвери: EZ-FPV, Shea Ivey (RX5808 SPI-mod), спільноти FPV Ukraine, r/Multicopter, r/fpv
+Тестування та фідбек: вся українська FPV-спільнота 2024–2025
 Ліцензія
-MIT — використовуй, модифікуй, поширюй вільно!
+MIT License — використовуй, модифікуй, поширюй вільно!
 Гарних польотів і точного виявлення дронів!
 27 листопада 2025
